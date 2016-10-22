@@ -29,7 +29,7 @@ npm test -- -w
 - `lint`: runs tslint for `src` and `tests` folders
 - `test`: runs mocha test without any compilation needed (uses `ts-node`)
 - `tsc`: proxy to the locally installed `typescript` package
-- `typings`: proxy to the locally installed `typings` package
+
 
 ## tsconfig Files
 
