@@ -33,18 +33,7 @@ npm test -- -w
 
 ## tsconfig Files
 
-The seed comes with two tsconfig files to enable greater dev experience in Visual Studio Code by enabling debuggig from source while running `mocha` tests:
-
 - `tsconfig.json`: configuration file for build
-
-## Visula Studio Code features
-
-- vscode build-in build tasks setup (`build` & `build.dist`)
-  - `build`: development build, sets `--watch` for continuous incremental compilation.
-    This tasks builds `src` and `tests` folder to `dev` which is used by vscode debugging tools.
-  - `build.dist` to compile the `src` folder only to `lib` folder.
-- vscode debug configured (`launch`)
-  - `launch.json` is set to run `mocha` test while debugging
 
 ## Running test
 
