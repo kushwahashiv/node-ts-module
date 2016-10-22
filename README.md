@@ -1,6 +1,6 @@
 # node-ts-module
 
-To create a npm module/library using Node.js, TypeScript
+Seed create a npm module/library in Node.js, TypeScript
 
 ## Getting starting
 
