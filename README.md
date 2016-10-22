@@ -10,7 +10,6 @@ cd {my-folder}
 rm -rf .git
 git init
 npm install
-npm run typings -- -install
 
 npm test -- -w
 
@@ -20,7 +19,6 @@ npm test -- -w
 ## Files to update
 
 - `package.json` (name, author, repository ...)
-- `typings.json` (name)
 - `Readme.md`
 
 ## npm scripts available
