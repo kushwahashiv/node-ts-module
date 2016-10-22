@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "stripInternal": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "outDir": "lib",
+    "rootDir": ".",
+    "sourceMap": true,
+    "inlineSources": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "types": [
+      "node",
+      "chai",
+      "mocha"
+    ],
+    "target": "es6",
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    "lib"
+  ],
+  "files": [
+    "index.ts"
+  ]
+}

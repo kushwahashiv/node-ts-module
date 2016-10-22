@@ -1,0 +1,41 @@
+{
+  "name": "node-ts-module",
+  "version": "0.0.0",
+  "description": "NodeJS TypeScript Module seed",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushwahashiv/node-ts-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kushwahashiv/node-ts-module/issues"
+  },
+  "homepage": "https://github.com/kushwahashiv/node-ts-module.git#readme",
+  "keywords": [
+    "typescript",
+    "tsc",
+    "node",
+    "seed",
+    "starter",
+    "vscode"
+  ],
+  "scripts": {
+    "build": "rimraf dist && npm run lint && tsc -p tsconfig.json",
+    "lint": "tslint **/*.ts",
+    "test": "mocha tests --compilers ts:ts-node/register --colors",
+    "tsc": "tsc"
+  },
+  "author": "Shiv Kushwaha <kushwaha.shiv@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.32",
+    "@types/node": "^6.0.45",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "rimraf": "^2.5.2",
+    "ts-node": "^1.6.0",
+    "tslint": "^3.10.2",
+    "typescript": "^2.0.3"
+  }
+}
